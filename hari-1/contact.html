@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        ul {
+            list-style-type: none;
+            display: inline;
+        }
+        li {
+            float: left;
+        }
+        li a {
+            padding: 16px;
+            text-align: center;
+            text-decoration: none;
+        }
+        li a:hover {
+            background-color: lightcoral;
+        }
+        body .header {
+            background-color: #d1d1d1;
+            padding: 15px;
+        
+        }
+        body .header h1 {
+            font-family: sans-serif;
+            color: green;
+        }
+        *{
+            box-sizing: border-box;
+        }
+        body .footer {
+            background-color: #d1d1d1;
+            padding: 1px;
+            bottom: 0;
+            position: fixed;
+            left: 0;
+            right: 0;
+        }
+        body .form-registrasi {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+            margin-top: 5px;
+        }
+        input[type=text], select {
+            width: 100%;
+            margin: 10px, 0px, 0px, 0px;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            padding: 12px 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li style="float: right;"><a href="#about">About</a></li>
+            <li style="float: right;"><a href="#newsfeed">News Feed</a></li>
+            <li style="float: right;"><a href="#sosial">Social</a></li>
+        </ul>
+    </div>
+
+    <div class="form-registrasi">
+        <h1>Registrasi</h1>
+        <form action="/hari-1/action_page.php"></form>
+        <label for="yname">Your Name</label>
+        <input type="text" id="yname" name="yourname" placeholder="Your name..">
+        <p style="margin: 5px 0px 20px 0px; color: rgb(124, 124, 124);">Nama Lengkap</p>
+        <label for="yname">Alamat Email</label>
+        <input type="text" id="yname" name="yourname" placeholder="Your name..">
+        <p style="margin: 5px 0px 20px 0px; color: rgb(124, 124, 124);">Nama Lengkap</p>
+        <!-- <label for="yname">Alamat</label>
+        <textarea rows="2" cols="50" placeholder="Masukan Alamat" style="margin: 0%;"></textarea> -->
+
+        <label for="yname">Password dan Konfirmasi</label>
+        <!-- <h1>oy</h1> -->
+        <ul style="display: inline;">
+            <li style="float: left;">
+                <input type="text" id="yname" name="yourname" placeholder="Your name..">
+            </li>
+            <li style="float: left;">
+                <input type="text" id="yname" name="yourname" placeholder="Your name..">
+            </li>
+        </ul>
+    </div>
+
+    <div class="footer">
+        <p style="text-align: center;">Copyright ehehe</p>
+    </div>
+</body>
+</html>
